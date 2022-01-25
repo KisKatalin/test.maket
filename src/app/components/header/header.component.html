@@ -1,0 +1,23 @@
+<header class="header" [@openHeader]="true">
+  <div class="head">
+    <a href="index.html" class="logo">
+      <h1>SEO Dream <img src="../assets/img/logo-icon.png" alt=""></h1>
+    </a>
+    <ul class="navigation" [@openNavbar]="navbarOpened ? 'openNav' : 'closeNav'">
+      <li class="scroll"><a href="#home" class="active">Home</a></li>
+      <li class="scroll"><a href="#features">Features</a></li>
+      <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+      <li class="scroll"><a href="#contact">Contact Us</a></li>
+      <li class="scroll">
+        <div class="top-blue-button"><a href="#contact">Get Your Quote</a></div>
+      </li>
+    </ul>
+    <div class="burger-toggle" (click)="menuToggle()">
+      <div>
+        <div class="icon-bar" [@hamburguerX]="!navbarOpened ? 'hamburguer' : 'topX'"></div>
+        <div class="icon-bar line2" [@hamburguerX]="!navbarOpened ? 'hamburguer' : 'hide'"></div>
+        <div class="icon-bar" [@hamburguerX]="!navbarOpened ? 'hamburguer' : 'bottomX'"></div>
+      </div>
+    </div>
+  </div>
+</header>
