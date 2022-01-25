@@ -20,15 +20,19 @@ import {
         animate(1000, style({opacity: 1}))
       ]) 
     ]),
-
-    
+  
     trigger('right_container_slide_in',[
-      transition(':enter',[style({
+      transition('void => *',[style({
         transform: 'translateX(100%)'
     }),
-     animate(1000)])
+     animate('0.5s 0.5s')])
     ]),
-    
+    trigger('left_container_slide_in',[
+      transition('void => *',[style({
+        transform: 'translateX(-120%)'
+    }),
+     animate('0.5s 1s')])
+    ]),
   
     
   ]

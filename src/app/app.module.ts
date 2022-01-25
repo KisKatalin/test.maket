@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FirstBlockComponent } from './components/first-block/first-block.component';
+import { SecondComponent } from './components/second/second.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FirstBlockComponent
+    FirstBlockComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,

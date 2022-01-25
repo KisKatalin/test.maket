@@ -5,6 +5,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .main:before{
   content: '';
   background-image: url(../../../assets/img/banner-dec-left.png);
