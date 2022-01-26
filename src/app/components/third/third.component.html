@@ -1,0 +1,24 @@
+<div class="main">
+  <div class="first-block" data-aos="fade-right" data-aos-duration="2000">
+    <div class="top-text">OUR PORTFOLIO</div>
+    <div class="bottom-text">Discover Our Recent<span> Projects </span>And<span> Showcases</span> </div>
+  </div>
+  <div class="second-block">
+    
+      <owl-carousel-o [options]="portfolioOptions">
+        
+        <ng-container *ngFor="let slide of dynamicSlidesFirstRow">
+          <ng-template carouselSlide [id]="slide.id">
+            <img class="first-row" style="width:95%" [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+          </ng-template>
+        </ng-container>
+      
+        <div *ngFor="let slide of dynamicSlidesSecondRow">
+          <ng-template carouselSlide [id]="slide.id">
+            <img class="second-row" [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+          </ng-template>
+        </div>
+      </owl-carousel-o>
+    </div>
+    
+</div>
