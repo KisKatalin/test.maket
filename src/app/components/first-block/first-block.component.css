@@ -1,9 +1,9 @@
 .main{
+
   padding-top: 220px;
   padding-left: 70px;
   padding-right: 70px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .main:before{
