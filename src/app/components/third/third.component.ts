@@ -72,7 +72,7 @@ export class ThirdComponent implements OnInit {
     loop: true,
     nav: true,
     margin: 30,
-    navText: ['<span aria-label="Previous">‹</span>','<span aria-label="Next">›</span>'],
+    navText: ["<span>&lt;</span>","<span>&gt;</span>"],
     responsive: {
 
       992: {

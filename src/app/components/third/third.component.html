@@ -3,10 +3,9 @@
     <div class="top-text">OUR PORTFOLIO</div>
     <div class="bottom-text">Discover Our Recent<span> Projects </span>And<span> Showcases</span> </div>
   </div>
-  <div class="second-block">
+  <div class="second-block"  data-aos="custumFade" aos-duration="30000">
     
       <owl-carousel-o [options]="portfolioOptions">
-        
         <ng-container *ngFor="let slide of dynamicSlidesFirstRow">
           <ng-template carouselSlide [id]="slide.id">
             <img class="first-row" style="width:95%" [src]="slide.src" [alt]="slide.alt" [title]="slide.title">

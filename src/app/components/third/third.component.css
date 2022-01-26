@@ -26,19 +26,10 @@ transform: translateY(-50%);
 
   height: 300px;
 }
-.owl-carousel .owl-item img {
-  display: block;
-  width: 95% !important;
-}
-.owl-item{
-  width: 345px;
-}
-.owl-stage{
-  width: 5598px;
-  transform: translate3d(-2094px, 0px, 0px) !important;
-  transition: all 0s ease 0s;
-  justify-content: space-between;
-}
+
+
+
+
 .top-text{
   color: #33ccc5;
   font-size: 15px;
@@ -57,4 +48,12 @@ font-size: 30px;
 }
 .bottom-text span:last-child{
   color: #088ec3;
+}
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="custumFade"].aos-animate {
+  opacity: 1;
 }

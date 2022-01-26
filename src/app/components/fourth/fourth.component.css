@@ -1,0 +1,126 @@
+.main{
+background-image: url(../../../assets/img/contact-bg.jpg);
+height: 750px;
+margin-top: 100px;
+display: flex;
+justify-content: center;
+
+}
+.container{
+background-color: white;
+height: 70%;
+width: 70%;
+border-radius: 50px;
+margin-top: 100px;
+padding: 50px;
+}
+.text{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.text div{
+  font-size: 15px;
+  font-family:'OpenSansBold';
+  color: #33ccc5;
+  margin-bottom: 15px;
+
+}
+h2{
+font-size: 30px;
+color: black;
+font-family: 'OpenSansBold';
+width: 45%;
+margin: auto;
+}
+h2 span:first-child{
+  color: #088ec3;
+}
+h2 span:last-child{
+  color: #33ccc5;
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+}
+form{
+  width: 70%;
+}
+.info{
+  width: 20%;
+  height: 330px;
+  border: 2px solid #eee;
+  font-family: 'openSans';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+}
+.info-item div{
+  display: flex;
+  justify-content: center;
+}
+p{
+  text-align: center;
+  color: #afafaf;
+}
+p:hover{
+  color: black;
+}
+input{
+  width: 43%;
+    height: 46px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #efefef;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2a2a2a;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    font-family: 'openSans';
+}
+
+textarea{
+  border: 2px solid #efefef;
+  width: 93%;
+  
+  height: 170px;
+  font-family: 'openSans';
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.inpt-first-line,.inpt-second-line{
+  display: flex;
+  justify-content: space-around;
+}
+.inpt-third-line{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  background-color: #33ccc5;
+  width: 30%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    margin: auto;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border-bottom: 2px solid #4771cb!important;
+    transition: all .3s;
+    border: none;
+}
+
+.btn:hover{
+  background-color: #4771cb!important;
+  color: #fff!important;
+  border-bottom: 2px solid #33ccc5!important;
+   
+}

@@ -12,6 +12,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FirstBlockComponent } from './components/first-block/first-block.component';
 import { SecondComponent } from './components/second/second.component';
 import { ThirdComponent } from './components/third/third.component';
+import { FourthComponent } from './components/fourth/fourth.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ThirdComponent } from './components/third/third.component';
     HeaderComponent,
     FirstBlockComponent,
     SecondComponent,
-    ThirdComponent
+    ThirdComponent,
+    FourthComponent
   ],
   imports: [
     BrowserModule,

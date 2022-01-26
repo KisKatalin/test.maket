@@ -17,6 +17,9 @@
   height: 653px;
   z-index: -1;
 }
+.btn{
+  text-decoration: none;
+}
 .main:after{
   content: '';
     background-image: url(../../../assets/img/banner-dec-right.png);
