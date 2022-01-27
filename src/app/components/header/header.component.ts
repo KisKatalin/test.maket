@@ -1,4 +1,6 @@
-import { Component, HostBinding, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+
 import {
   trigger,
   state,
@@ -70,11 +72,18 @@ import {
 export class HeaderComponent implements OnInit {
 
   @HostBinding("class.navbar-opened") navbarOpened = false;
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private _document: HTMLDocument) { }
 
   ngOnInit(): void {
   }
   menuToggle(): void {
     this.navbarOpened = !this.navbarOpened;
+  }
+  addActiveClass(event: any): void {
+    let elements = this._document.querySelectorAll('.link');
+    for(let i = 0; i < elements.length; i++){
+      elements[i].classList.remove("active")
+    }
+    event.srcElement.classList.add("active");
   }
 }

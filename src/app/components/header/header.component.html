@@ -4,10 +4,10 @@
       <h1>SEO Dream <img src="../assets/img/logo-icon.png" alt=""></h1>
     </a>
     <ul class="navigation" [@openNavbar]="navbarOpened ? 'openNav' : 'closeNav'">
-      <li class="scroll"><a href="#home" class="active">Home</a></li>
-      <li class="scroll"><a href="#features">Features</a></li>
-      <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-      <li class="scroll"><a href="#contact">Contact Us</a></li>
+      <li class="scroll"><a href="#home" class="link" (click)="addActiveClass($event)">Home</a></li>
+      <li class="scroll"><a href="#features" class="link" (click)="addActiveClass($event)"  >Features</a></li>
+      <li class="scroll"><a href="#portfolio" class="link" (click)="addActiveClass($event)">Portfolio</a></li>
+      <li class="scroll"><a href="#contact" class="link" (click)="addActiveClass($event)">Contact Us</a></li>
       <li class="scroll">
         <div class="top-blue-button"><a href="#contact">Get Your Quote</a></div>
       </li>

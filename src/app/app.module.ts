@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from "@angular/material/icon";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {RoundProgressModule} from 'angular-svg-round-progressbar';
@@ -29,7 +30,8 @@ import { FourthComponent } from './components/fourth/fourth.component';
     MatIconModule,
     BrowserAnimationsModule,
     RoundProgressModule,
-    CarouselModule 
+    CarouselModule,
+    ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
