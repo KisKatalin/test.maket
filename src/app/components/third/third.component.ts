@@ -68,7 +68,6 @@ export class ThirdComponent implements OnInit {
   portfolioOptions: OwlOptions = {
     center: true,
     items: 2,
-    dots: true,
     loop: true,
     nav: true,
     margin: 30,

@@ -13,4 +13,19 @@ body{
 }
 .owl-carousel .owl-nav.disabled {
   display: block;
+  position: absolute;
+  position: 200px;
+  bottom: 351px;
+  right: 250px;
+}
+.owl-prev, .owl-next{
+  height: 60px;
+  width: 60px;
+  border-radius:50% !important;
+  border: 2px solid #eee !important;
+  color: #ddd !important;
+  background-color: white !important;
+  font-size: 30px!important;
+  box-sizing: border-box;
+  padding: 8px 7px !important;
 }

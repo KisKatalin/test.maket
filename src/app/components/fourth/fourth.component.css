@@ -103,7 +103,7 @@ textarea{
 
 .btn{
   background-color: #33ccc5;
-  width: 30%;
+  width: 200px;
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -123,4 +123,38 @@ textarea{
   color: #fff!important;
   border-bottom: 2px solid #33ccc5!important;
    
+}
+
+@media (max-width: 992px) {
+ .main{
+   height: 1600px;
+ }
+ h2{
+width: 80%;
+ }
+.inpt-first-line, .inpt-second-line{
+  flex-direction: column;
+}
+input{
+  width: 90%;
+}
+.form{
+  flex-direction: column;
+  align-items: center;
+}
+form{
+  width: 90%;
+
+}
+.info{
+  width: 90%;
+}
+textarea{
+  width: 90%;
+  margin: 0;
+}
+.btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 }

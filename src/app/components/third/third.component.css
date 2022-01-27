@@ -49,11 +49,22 @@ font-size: 30px;
 .bottom-text span:last-child{
   color: #088ec3;
 }
-[aos="fade"] {
+/*[aos="fade"] {
   opacity: 0;
   transition-property: opacity;
 }
 
 [aos="custumFade"].aos-animate {
   opacity: 1;
+}*/
+
+@media (max-width: 992px) {
+  .first-block{
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+.first-block{
+  margin-left: 20px;
+}
 }
